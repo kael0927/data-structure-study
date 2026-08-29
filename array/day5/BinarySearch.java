@@ -1,5 +1,4 @@
-// 
-
+package day5;
 public class BinarySearch{
     /*二分查找基础版
     Params：a - 待查找的升序数组
@@ -15,7 +14,7 @@ public class BinarySearch{
             if(a[m] < target){//目标值在右边
                 i = m + 1;
             } else if (target < a[m]){//目标值在左边
-                j = m - 1;    
+                j = m;    
             } else {
                 return m;
             }

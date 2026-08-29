@@ -1,5 +1,4 @@
 {
-  "git.ignoreLimitWarning": true,
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -36,10 +35,7 @@
   ],
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
-  "C_Cpp_Runner.compilerArgs": [
-    "-finput-charset=UTF-8",
-    "-fexec-charset=UTF-8"
-  ],
+  "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [],
   "C_Cpp_Runner.includeSearch": [
@@ -59,9 +55,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "terminal.integrated.encoding": "utf8",
-  "code-runner.executorMap": {
-    "c": "chcp 65001 > nul && gcc -finput-charset=UTF-8 -fexec-charset=UTF-8 $fullFileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe"
-  }
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinarySearch1",
+      "request": "launch",
+      "mainClass": "day5.BinarySearch1",
+      "projectName": "data_structure_d084e7ac"
+    },
+    {
+      "type": "java",
       "name": "day4",
       "request": "launch",
       "mainClass": "day4",
@@ -14,11 +21,11 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "${fileDirname}",
-      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "externalConsole": true,
+      "cwd": "e:/Coding/VisualStudio/data_structure/array",
+      "program": "e:/Coding/VisualStudio/data_structure/array/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "D:\\Tools\\mingw64\\bin\\gdb.exe",
+      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
