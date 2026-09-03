@@ -2,7 +2,7 @@ package day7;
 
 public class DynamicArray {
     private int[] data;
-    private int size;
+    private int size;//记录有效元素个数
     //构造器：指定初始容量
     public DynamicArray(int initCapacity){
         data = new int[initCapacity];
@@ -56,7 +56,7 @@ public class DynamicArray {
     public int size(){
         return size;
     }
-
+    //判空
     public boolean isEmpty(){
         return size == 0;
     }
