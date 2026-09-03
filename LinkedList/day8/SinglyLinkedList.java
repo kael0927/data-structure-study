@@ -33,7 +33,7 @@ public class SinglyLinkedList {
         }
     }
 
-    //尾插
+
     private Node findLast() {//方法体必须带括号
         Node p;//声明变量
         for (p = head; p.next != null; p = p.next) {
@@ -41,7 +41,7 @@ public class SinglyLinkedList {
         }
         return p;
     }
-
+    //尾插
     private void addLast(int val) {
         Node last = findLast();
         last.next = new Node(val, null);
